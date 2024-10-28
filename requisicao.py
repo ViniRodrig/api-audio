@@ -8,6 +8,6 @@ with open(audio_file_path, 'rb') as audio_file:
     response = requests.post(url, files=files)
 
 if response.status_code == 200:
-    print("Resposta do Servidor:", response.json())
+    print(response.json())
 else:
     print("Erro:", response.status_code, response.text)

@@ -30,13 +30,15 @@ def processar_audio():
         json_output = get_json(transcription_text)
 
         # Exclui o arquivo de áudio temporário após o processamento
-        os.remove(file_path)
+        if os.path.exists(file_path):
+            os.remove(file_path)
 
         # Retorna o JSON resultante
-        return jsonify({"json_output": json_output})
+        return jsonify(json_output)
 
     except Exception as e:
-        os.remove(file_path)
+        if os.path.exists(file_path):
+            os.remove(file_path)
         return jsonify({"error": str(e)}), 500
 
 # Inicialização do servidor

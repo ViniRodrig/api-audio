@@ -1,65 +1,25 @@
 {
+  "sumario": "Oswaldo deve realizar manutenção em equipamentos na linha de produção no domingo, seguindo as instruções específicas para cada tarefa.",
   "ordem-serviço": [
     {
+      "titulo": "Lubrificação dos Rolamentos",
       "maquina": "Linha 3",
-      "atividade": "Lubrificação dos rolamentos.",
-      "tarefas": [
-        {
-          "descricao": "Ler ficha técnica do equipamento.",
-          "detalhes": "Conferir a quantidade correta de lubrificante a ser aplicada nos rolamentos de acordo com a ficha técnica para evitar erros passados."
-        },
-        {
-          "descricao": "Aplicar lubrificante.",
-          "detalhes": "Usar o lubrificante código azul 6624 do estoque seguindo as instruções e quantidades que estão na ficha técnica."
-        }
-      ],
-      "area_responsavel": "mecânica"
+      "descricao": "Realizar a lubrificação dos rolamentos da máquina na linha 3, utilizando o lubrificante azul código 6624. Conferir a ficha técnica para a quantidade exata a ser utilizada. Atenção aos sinais de desgaste e ao barulho reportado pelo pessoal."
     },
     {
+      "titulo": "Verificação do Nível de Óleo",
       "maquina": "Desencapadora da Linha 12",
-      "atividade": "Verificação do nível de óleo.",
-      "tarefas": [
-        {
-          "descricao": "Inspeção do nível de óleo.",
-          "detalhes": "Verificar se o nível de óleo está correto para evitar picos de temperatura e possíveis danos."
-        },
-        {
-          "descricao": "Repor o óleo, se necessário.",
-          "detalhes": "Caso o nível de óleo esteja baixo, completar com o óleo especificado."
-        }
-      ],
-      "area_responsavel": "hidráulica"
+      "descricao": "Verificar o nível de óleo da desencapadora na linha 12. Conferir medições e assegurar que o nível está adequado para evitar picos de temperatura e possíveis falhas no funcionamento, conforme relatado pelo pessoal e enviado à gerência."
     },
     {
+      "titulo": "Substituição do Filtro de Ar",
       "maquina": "Compressor 5",
-      "atividade": "Substituição do filtro de ar.",
-      "tarefas": [
-        {
-          "descricao": "Localizar o filtro de ar novo.",
-          "detalhes": "O filtro de ar está debaixo da bancada, conforme informado, e precisa ser localizado antes de iniciar a substituição."
-        },
-        {
-          "descricao": "Trocar o filtro de ar.",
-          "detalhes": "Retirar o filtro antigo e instalar o novo filtro cuidadosamente."
-        }
-      ],
-      "area_responsavel": "mecânica"
+      "descricao": "Trocar o filtro de ar do compressor 5 localizado na central. O filtro novo está disponível embaixo da bancada, providenciado anteriormente no almoxarifado. Esta tarefa está em estado crítico e não pode ser adiada."
     },
     {
-      "maquina": "Bomba de circulação do canto direito",
-      "atividade": "Inspeção e verificação de funcionamento.",
-      "tarefas": [
-        {
-          "descricao": "Inspeção auditiva.",
-          "detalhes": "Ouvir a bomba para identificar barulhos anormais que possam indicar problemas."
-        },
-        {
-          "descricao": "Verificar conexões e funcionamento.",
-          "detalhes": "Certificar-se de que todas as conexões estão firmes e que a bomba está funcionando corretamente."
-        }
-      ],
-      "area_responsavel": "mecânica"
+      "titulo": "Inspeção da Bomba de Circulação",
+      "maquina": "Compressores",
+      "descricao": "Enquanto estiver trocando o filtro de ar, verificar o estado da bomba de circulação localizada no canto direito. Foi reportado que está emitindo barulhos estranhos, necessitando atenção."
     }
-  ],
-  "sumario": "No domingo, a equipe deve realizar a lubrificação dos rolamentos na Linha 3 usando o lubrificante especificado e consultar a ficha técnica para a quantidade correta. Devem também verificar o nível de óleo da desencapadora na Linha 12 para evitar superaquecimento. Além disso, é necessário substituir o filtro de ar do Compressor 5 e inspecionar a bomba de circulação próxima para ruídos ou problemas de funcionamento."
+  ]
 }

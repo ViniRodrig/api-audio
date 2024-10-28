@@ -11,7 +11,7 @@ WORKDIR /app
 # Install any needed packages specified in requirements.txt
 COPY . /app
 
-RUN pip install --no-cache-dir openai requests flask
+RUN pip install --no-cache-dir openai requests flask flask-cors
 
 
 # Run app.py when the container launches

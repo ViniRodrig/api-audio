@@ -1,0 +1,11 @@
+version: "3.2"
+
+services:
+  app:
+    build:
+      context: .
+    environment:
+      OPENAI_API_KEY: TESTE
+    ports:
+      - 5000:5000
+

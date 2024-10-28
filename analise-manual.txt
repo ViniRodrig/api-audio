@@ -11,4 +11,13 @@ Linha 3:
 
 Linha 12:
 - verificar nível de oleo da desencapadora 
-  
+- revisar medições
+ picos de temperatura
+ revisar nível de óleo 
+
+Central: 
+ compressor 5
+ filtro de ar passou do ponto, está bem crítico
+ - substituição do filtro de ar
+
+

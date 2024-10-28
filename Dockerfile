@@ -11,12 +11,12 @@ WORKDIR /app
 # Install any needed packages specified in requirements.txt
 COPY . /app
 
-RUN pip install --no-cache-dir openai requests flask flask-cors
+RUN pip install --no-cache-dir openai requests flask gunicorn
 
 
 # Run app.py when the container launches
-CMD ["python", "app.py"]
-# CMD ["gunicorn", "--workers=10", "app:app", "-b", "0.0.0.0:8080"]
+# CMD ["python", "app.py"]
+CMD ["gunicorn", "--workers=10", "app:app", "-b", "0.0.0.0:5000"]
 
 # docker build -t sql-injection . -f Dockerfile
 # docker tag sql-injection:latest registry.ctf.secompufscar.com.br/sql-injection:latest

@@ -40,9 +40,9 @@ def get_json(transcript):
                                 "required": ["titulo", "maquina", "descricao"]
                             }
                         },
-                        "sumario": {"type": "string"}                      
+                        # "sumario": {"type": "string"}                      
                     },
-                    "required": ["ordem-serviço", "sumario"]  
+                    "required": ["ordem-serviço"]  
                 }
             }
         }
